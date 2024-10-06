@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.imagen-con-gradiente {
+    position: relative;
+    .arena{
+        width: 100%;
+    }
+
+  }
+
+.imagen-con-gradiente::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 0%, #05010D 100%);
+    z-index: 1;
+}
+
+.rotado{
+    transform: rotate(180deg);
+}
+
+
+
+.explicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    background-color: #05010D;
+    color: #F0E2D6;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .titulo{
+        font-family: "Advent Pro", sans-serif;
+        font-size: 2.25rem;
+        letter-spacing: 8px;
+    }
+
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+   
+
+        img{
+            width: 2.813rem;
+            height: 2.813rem;       
+         }
+
+        .contenido{
+            font-family: "Abel", sans-serif;
+            font-size: 1.25rem;
+            width: 90% ;
+            text-align:justify;
+        }
+    }
+    
+
+}
