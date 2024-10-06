@@ -1,5 +1,13 @@
-.home{
+.seccion{
     display: flex;
-    flex-direction: column;
-    gap: 3.875rem;
+    flex-direction: row;
+    gap: 3.5rem;
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        gap: 3.875rem;
+    }
 }
+
+
