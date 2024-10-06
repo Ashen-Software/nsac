@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+
+.contenido{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:7rem;
+    .about{
+        padding: 1.625rem 1.438rem;
+        color: #F0E2D6;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(125, 87, 63, .19);
+        border-radius: 20px;
+        gap:1.625rem;
+        width: 18.813rem;
+
+        .title{
+            font-family: 'Advent Pro', sans-serif;
+            letter-spacing: 2.5px;
+            font-size: 2.25rem;
+            text-align: center;
+            
+        }
+
+        .expl{
+            font-family: 'Abel', sans-serif;
+            font-size: 1.25rem;
+            text-align: justify;
+        }
+
+
+
+    }
+
+    .der{
+        display: flex;
+        flex-direction: column;
+        gap: 1.438rem;
+
+        .title{
+            color:#F0E2D6;
+            font-family: 'Advent Pro', sans-serif;
+            letter-spacing: 2.5px;
+            font-size: 2.25rem;
+            text-align: center;
+        }
+
+        .team{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 50rem;
+            gap: 1.125rem;
+    
+        }
+
+    }
+ 
+}
+
+
+
