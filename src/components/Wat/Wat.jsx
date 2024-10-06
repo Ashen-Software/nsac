@@ -10,9 +10,9 @@ function Wat(){
 
             <div className='content'>
  
-            <p className='contenidoo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, 
-                eget tempus orci facilisis id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.</p>
-             
+            <p className='contenidoo'>Namazu is a web application designed to help users visualize seismic data from Mars. By processing real seismic data and filtering out noise, Namazu identifies critical areas for future construction and energy generation on the planet. Through clear data visualization, Namazu helps scientists and engineers make informed decisions about where to build infrastructure and harness seismic energy on Mars.</p>
+            <p className="contenidoo">Data used <br/>
+    Namazu processes seismic data collected from missions like NASA’s InSight and Apollo. The app applies advanced signal processing techniques to remove noise from the data, making it easier to identify meaningful seismic events. The data is presented in clean, noise-free visualizations, allowing users to quickly analyze the seismic activity on Mars and make well-informed decisions about future developments on the planet.</p>
         </div>
 
     </div>
