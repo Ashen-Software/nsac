@@ -1,10 +1,11 @@
 import './home.css';
 import WhatIs from '../../components/WhatIs/WhatIs';
+import Header from "../../components/Header/Header"
 
 function Home(){
     return(
-        <div>
-        <p>cero</p>
+        <div className='home'>
+        <Header/>
         <WhatIs/>
 </div>
     )
