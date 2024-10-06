@@ -5,7 +5,7 @@ import flecha from "../../assets/arrow-big-right-dash.png"
 function WhatIs(){
 
     return(
-        <div>
+        <div className='todo'>
 
             <div className="imagen-con-gradiente">
                 <img className="arena" src={sand1} alt = "arena"/>

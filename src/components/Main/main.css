@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+
+.imagen-con-texto {
+    position: relative;
+  }
+  
+.imagen-con-texto img {
+    width: 100%; /* Ajusta el ancho de la imagen según necesites */
+    height: auto;
+  }
+  
+.texto-centrado {
+    position: absolute;
+    font-family: "Aboreto", system-ui;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FCF1E8; 
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 80px;
+  }

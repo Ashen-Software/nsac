@@ -1,3 +1,6 @@
 .home{
     background-color: #05010D;
+    position: relative; /* Hace que los hijos puedan posicionarse en relación a este */
+    overflow: hidden; /* Oculta cualquier contenido que se salga de los límites */ 
 }
+
