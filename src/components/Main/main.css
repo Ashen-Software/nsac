@@ -21,6 +21,8 @@
     font-size: 6rem;
     text-align: center;
     letter-spacing: 80px;
+    cursor:pointer;
+    text-decoration: none;
   }
 
 .texto-centrado:hover {
