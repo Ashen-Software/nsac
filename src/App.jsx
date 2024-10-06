@@ -9,7 +9,7 @@ function App() {
     
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Ruta para el formulario de inicio de sesión */}
+        <Route path="/" element={<Home />} /> 
 
       </Routes>
     </BrowserRouter>
