@@ -1,10 +1,13 @@
+import './home.css';
+import Explanation from '../../components/Explanation/Explanation';
 
-import './home.css'
 
 function Home(){
     return(
-        <p>ola</p>
-
+        <>
+ 
+        <Explanation/>
+</>
     )
 }
 
