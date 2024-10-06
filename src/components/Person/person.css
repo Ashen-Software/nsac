@@ -23,6 +23,7 @@
             width: 7.875rem;
             height: 5.125rem;
             border-radius: 20px;
+            object-fit: cover;
         }
         
     }

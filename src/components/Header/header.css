@@ -7,10 +7,14 @@
     flex-direction: row;
     padding-top: 1.75rem;
 
-    position: absolute;
+    position: fixed;
     top: -20px; /* Ajusta el valor negativo para controlar la sobreposición */
-   z-index: 1;
+    z-index: 2;
 
+    background-image: linear-gradient(to bottom, black, transparent);
+ 
+    padding-bottom: 4.25rem;
+    padding-top: 2.5rem;
 
 
     .logo{
@@ -32,6 +36,7 @@
         letter-spacing: 4.80;
         word-wrap: 'break-word';
         color: #F0E2D6;
+        cursor: pointer;
     }
     }
 }

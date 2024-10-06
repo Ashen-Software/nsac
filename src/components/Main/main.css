@@ -2,7 +2,8 @@
 
 
 .imagen-con-texto {
-    position: relative;
+    position:sticky;
+    z-index: -0;
   }
   
 .imagen-con-texto img {
@@ -21,3 +22,13 @@
     text-align: center;
     letter-spacing: 80px;
   }
+
+.texto-centrado:hover {
+    font-size: 8rem;
+    transition: font-size 0.3s ease-in-out; 
+  }
+
+.texto-centrado:not(:hover) {
+    transition: font-size 0.3s ease-in-out;
+  }
+
