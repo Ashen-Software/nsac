@@ -22,6 +22,11 @@
 
     .izq{
         width: 25%;
+
+        .logo{
+            height: 4.688rem;
+            width: 13.125rem;
+        }
     }
 
     .home{
