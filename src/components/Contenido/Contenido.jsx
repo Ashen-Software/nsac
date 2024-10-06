@@ -15,8 +15,11 @@ function Contenido(){
         <div className='about'>
 
             <p className='title'>About Us</p>
-            <p className='expl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque 
-                nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam.</p>
+            <p className='expl' >We are a team of six passionate engineering students with diverse expertise, united by our curiosity for space exploration and our commitment to creating innovative solutions for humanity’s future on Mars.</p>
+
+            <p className='expl'>Our multidisciplinary backgrounds allow us to tackle complex problems from multiple perspectives, combining technical skills, creativity, and a drive for excellence.</p>
+
+            <p className='expl'> Together, we developed Namazu, an application designed to make seismic data on Mars more accessible and useful for future colonization efforts.</p>
         </div>
 
         
