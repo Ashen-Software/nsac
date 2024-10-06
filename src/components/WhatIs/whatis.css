@@ -23,49 +23,7 @@
 .rotado{
     transform: rotate(180deg);
 }
-
-
-
-.explicacion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:1.5rem;
-    background-color: #05010D;
-    color: #F0E2D6;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-
-    .titulo{
-        font-family: "Advent Pro", sans-serif;
-        font-size: 2.25rem;
-        letter-spacing: 8px;
-    }
-
-    .content{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-   
-
-        img{
-            width: 2.813rem;
-            height: 2.813rem;       
-         }
-
-        .contenido{
-            font-family: "Abel", sans-serif;
-            font-size: 1.25rem;
-            width: 90% ;
-            text-align:justify;
-        }
-    }
-    
-
-}
-
+ 
 .todo{
     margin-top: -250px;
 

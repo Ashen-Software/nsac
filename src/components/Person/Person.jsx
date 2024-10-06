@@ -1,14 +1,14 @@
 import './person.css';
 import PropTypes from 'prop-types';
 
-function Person({ number , rol}) {
+function Person({ number , rol, im }) {
     return (
       <div className="persona">
         <div className="imagen">
-          img
+          <img src={im} alt="imagen" />
         </div>
         <div className="iz">
-          <p className="nombre">Person {number}</p>
+          <p className="nombre"> {number}</p>
           <p className="rol">{rol}</p>
         </div>
       </div>
@@ -16,7 +16,7 @@ function Person({ number , rol}) {
   }
   
   Person.propTypes = {
-    number: PropTypes.number.isRequired,
+    number: PropTypes.string.isRequired,
     rol: PropTypes.string.isRequired,
    
   };

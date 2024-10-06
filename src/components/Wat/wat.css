@@ -1,0 +1,34 @@
+.explicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+ 
+    color: #F0E2D6;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    .titulo{
+        font-family: "Advent Pro", sans-serif;
+        font-size: 2.25rem;
+        letter-spacing: 8px;
+    }
+
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+   
+ 
+        .contenido{
+            font-family: "Abel", sans-serif;
+            font-size: 1.25rem;
+            width: 90% ;
+            text-align:justify;
+        }
+    }
+    
+
+}

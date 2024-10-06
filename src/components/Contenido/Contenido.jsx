@@ -1,5 +1,6 @@
 import './contenido.css';
 import Person from "../Person/Person";
+import sara from "../../assets/Asunto.png"
 
 function Contenido(){
 
@@ -17,7 +18,7 @@ function Contenido(){
         <div className='der'>
             <p className='title'>Our Team</p>
             <div className='team'>    
-                <Person number={1} rol="rol"/>
+                <Person number="Sara Ruiz" rol="rol" im= {sara}/>
                 <Person number={1} rol="rol"/>
                 <Person number={1} rol="rol"/>
                 <Person number={1} rol="rol"/>

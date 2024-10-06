@@ -16,6 +16,13 @@
         width: 6.333rem;
         height: 5.125rem;
         border-radius: 20px;
+
+        img
+        {
+            width: 6.333rem;
+            height: 5.125rem;
+            border-radius: 20px;
+        }
         
     }
 
