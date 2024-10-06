@@ -6,8 +6,11 @@ import About from "../../components/About/About";
 function Home(){
     return(
         <>
+        <p className='namazu'>NAMAZU</p>
         <div className='seccion'>
-            <About/>
+            <div className='izq'>
+                <About/>
+            </div>
             <div className='home'>
                 <Explanation/>
                 <Address/>
