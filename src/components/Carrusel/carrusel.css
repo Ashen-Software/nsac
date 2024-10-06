@@ -1,0 +1,22 @@
+.rotado{
+    transform: rotate(180deg);
+}
+
+.carousel  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.flecha {
+    
+    display: flex;
+  
+    width: 2.813rem;
+    height: 2.813rem;
+   
+    cursor: pointer;
+
+    
+}

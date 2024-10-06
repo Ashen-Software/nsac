@@ -7,6 +7,7 @@
     color: #F0E2D6;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+ 
 
     .titulo{
         font-family: "Advent Pro", sans-serif;
@@ -22,7 +23,7 @@
         align-items: center;
    
  
-        .contenido{
+        .contenidoo{
             font-family: "Abel", sans-serif;
             font-size: 1.25rem;
             width: 90% ;

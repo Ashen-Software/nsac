@@ -1,4 +1,5 @@
 import "./carrusel.css";
+import flec from "../../assets/arrow-big-right-dash.png"
 
 import React, { useState } from 'react';
 
@@ -21,11 +22,14 @@ const Carrusel = ({ children }) => {
 
   return (
     <div className="carousel">
-      <button onClick={prevSlide}>Prev</button>
-      <div className="carousel-content">
+ 
+      <img src={flec} alt="flecha" onClick={prevSlide} className="rotado flecha "/>
+ 
+      <div className="carousel-content" >
         {children[currentIndex]}
       </div>
-      <button onClick={nextSlide}>Next</button>
+   
+      <img src={flec} alt="flecha" onClick={nextSlide} className="flecha "/>
     </div>
   );
 };

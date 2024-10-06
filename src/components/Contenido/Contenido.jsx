@@ -1,6 +1,11 @@
 import './contenido.css';
 import Person from "../Person/Person";
 import sara from "../../assets/Asunto.png"
+import estrellas from "../../assets/FondoEstrellado.png";
+import mary from "../../assets/mary.jpg";
+import melany from "../../assets/melany.jpg";
+ 
+
 
 function Contenido(){
 
@@ -18,9 +23,9 @@ function Contenido(){
         <div className='der'>
             <p className='title'>Our Team</p>
             <div className='team'>    
-                <Person number="Sara Ruiz" rol="rol" im= {sara}/>
-                <Person number={1} rol="rol"/>
-                <Person number={1} rol="rol"/>
+                <Person number="Sara " rol="Civil Engineering" im= {sara}/>
+                <Person number="Marycielo" rol="Software engineering " im= {mary}/>
+                <Person number="Melany" rol="Software engineering" im={melany}/>
                 <Person number={1} rol="rol"/>
                 <Person number={1} rol="rol"/>
                 <Person number={1} rol="rol"/>

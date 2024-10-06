@@ -8,16 +8,24 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:7rem;
+ 
+    width: 100%;
+    background-image: url("src/assets/FondoEstrellado.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10rem;
+    margin-top: -11rem;
+    padding-bottom: 3.75rem;
+    gap: 6rem;
+     
     .about{
         padding: 1.625rem 1.438rem;
         color: #F0E2D6;
         display: flex;
         flex-direction: column;
-        background-color: rgba(125, 87, 63, .19);
-        border-radius: 20px;
+        width: 18rem;
         gap:1.625rem;
-        width: 18.813rem;
+ 
 
         .title{
             font-family: 'Advent Pro', sans-serif;
@@ -41,6 +49,8 @@
         display: flex;
         flex-direction: column;
         gap: 1.438rem;
+         
+         
 
         .title{
             color:#F0E2D6;
@@ -54,8 +64,8 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            width: 50rem;
-            gap: 1.125rem;
+            width: 35rem;
+             
     
         }
 
