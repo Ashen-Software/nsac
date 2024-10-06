@@ -1,12 +1,15 @@
 import './home.css';
 import Explanation from '../../components/Explanation/Explanation';
+import Address from '../../components/Address/Address';
 
 
 function Home(){
     return(
         <>
- 
-        <Explanation/>
+        <div className='home'>
+            <Explanation/>
+            <Address/>
+        </div>
 </>
     )
 }
