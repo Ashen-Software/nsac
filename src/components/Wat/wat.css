@@ -21,7 +21,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-   
+        gap:1rem;
  
         .contenidoo{
             font-family: "Abel", sans-serif;

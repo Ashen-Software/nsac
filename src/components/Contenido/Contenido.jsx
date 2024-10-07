@@ -5,6 +5,7 @@ import estrellas from "../../assets/FondoEstrellado.png";
 import mary from "../../assets/mary.jpg";
 import melany from "../../assets/melany.jpg";
 import yulian from "../../assets/yulian.jpeg";
+import luisa from "../../assets/luisa.jpeg";
  
 
 
@@ -31,8 +32,8 @@ function Contenido(){
                 <Person number="Marycielo" rol="Software engineering " im= {mary}/>
                 <Person number="Melany" rol="Software engineering" im={melany}/>
                 <Person number="Yulian" rol="Mechanic engineering " im={yulian}/>
-                <Person number={1} rol="rol"/>
-                <Person number={1} rol="rol"/>
+                <Person number="Luisa" rol="Mechatronic engineering " im={luisa}/>
+                <Person number="Santiago" rol="Software engineering "/>
             </div>
 
         </div>

@@ -1,6 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+
 .main2{
 
     background-image: url("src/assets/Group 14.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    padding-left: 9.25rem;
+    padding-right: 9.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+
+    margin-bottom: -15rem;
+    .namazu{
+        letter-spacing: 5rem;
+        font-family: "Aboreto", system-ui;
+        color: #FCF1E8; 
+        font-size: 6rem;
+
+    }
+
+    .info{
+         color: #FCF1E8;
+        background-color: rgba(0, 0, 0, .68);
+        display: flex;
+        flex-direction: column;
+        padding:  1.313rem;
+        gap: 2.25rem;
+        border-radius: 20px;
+
+         .title-info{
+            font-family: 'Advent Pro', sans-serif;
+            font-size: 2.25rem;
+            
+         }
+         
+
+        .text-info{
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+           
+        }
+    }
 
 
 }
