@@ -13,6 +13,9 @@ function Visualization(){
         <div className="imagen-con-gradiente">
         <img className="arena" src={sand1} alt="arena" />
       </div>
+
+
+      <div className='lk'><a href="https://colab.research.google.com/drive/1HR_AXWcHs-SpjC4-klTDPcBCw2qDsqC-?usp=sharing" className='link'>Collab Project</a></div>
     </div>)
 
 }
