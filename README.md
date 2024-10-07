@@ -1,4 +1,4 @@
-# NSAC - NASA Seismic Analysis Challenge
+# NAMAZU
 
 ## Project Overview  
 Our project is aimed at optimizing seismic event detection and data transmission on planetary surfaces, particularly on Mars. By deploying algorithms directly on planetary landers, we reduce the volume of data transmitted back to Earth by identifying relevant seismic signals. This method allows for efficient use of bandwidth while ensuring critical information is preserved. 
