@@ -1,0 +1,41 @@
+.spa {
+  padding: 2.5rem;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+p{
+	font-family: "Abel", sans-serif;
+	font-size: 1.25rem;
+
+}
+
+.title {
+	font-family: "Advent Pro", sans-serif;
+	font-size: 2.25rem;
+  text-align: center;
+	letter-spacing: 8px;
+
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none; /* Elimina los marcadores por defecto */
+  padding: 0;
+}
+
+li::before {
+  content: "\2022"; /* Código Unicode para un punto */
+  margin-right: 10px; /* Espacio entre el punto y el texto */
+}
+
+li {
+  margin-bottom: 0.5rem;
+	font-family: "Abel", sans-serif;
+	font-size: 1.25rem;
+
+}

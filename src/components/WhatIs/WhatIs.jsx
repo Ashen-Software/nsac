@@ -3,6 +3,9 @@ import Wat from "../../components/Wat/Wat.jsx";
 import sand1 from "../../assets/Sand storm.png";
 import "./whatis.css";
 import Problematic from "../../components/Problematic/Problematic.jsx";
+import Historic from "../Historic/Historic.jsx";
+import Energy from "../Energy/Energy.jsx";
+import Spa from "../Spa/Spa.jsx";
 
 function WhatIs() {
   return (
@@ -14,6 +17,9 @@ function WhatIs() {
       <Carrusel>
         <Wat />
         <Problematic/>
+        <Historic />
+        <Energy />
+        <Spa />
       </Carrusel>
 
       <div className="imagen-con-gradiente rotado">
